@@ -7,8 +7,6 @@ Due to the space limitation of our Dropout, here we only can provide the process
 ## Usage
 The "__training_code__" folder contains the training code of our LADAN. And the "__data_and_config__" folder contains the deta preprocessing codes and processed datasets. 
 Here are details of some important folders in the "__data_and_config__" folder:
-	
-* leal_basis_data: Contains the peocessed datasets of CAIL-small, including train set "__train_processed_thulac_Legal_basis.pkl__", valid set "__valid_processed_thulac_Legal_basis.pkl__" and test set "__test_processed_thulac_Legal_basis.pkl__"
 
 * config: Records the experimental parameter setting.
 * Model: Contains some basic models we use.
