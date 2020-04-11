@@ -7,8 +7,14 @@ Due to the space limitation of our Dropout, here we only can provide the process
 The "training_code" folder contains the training code of our LADAN. And the "data_and_config" folder contains the deta preprocessing codes and processed datasets. 
 Here are details of some important folders in the "data_and_config" folder:
 	
-"leal_basis_data": Contains the peocessed datasets of CAIL-small, including train set "train_processed_thulac_Legal_basis.pkl", valid set "valid_processed_thulac_Legal_basis.pkl" and test set "test_processed_thulac_Legal_basis.pkl"
+"leal_basis_data": Contains the peocessed datasets of CAIL-small, including train set
+
+"train_processed_thulac_Legal_basis.pkl", valid set "valid_processed_thulac_Legal_basis.pkl" and test set 
+
+"test_processed_thulac_Legal_basis.pkl"
+
 "config": Records the experimental parameter setting.
+
 "Model": Contains some basic models we use.
 others: the data preprocessing codes.
 	
