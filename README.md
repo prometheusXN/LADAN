@@ -4,6 +4,10 @@ The source code of article "Distinguish Confusing Law Articles for Legal Judgmen
 ## Statement
 Due to the space limitation of our Dropout, here we only can provide the processed dataset of CAIL-small. After the dual anonymity period ends, we will open source data and code on github.com.
 
+## Data_processing 
+When you get the CAIL datasets, run 'data_and_config/data/tongji3.py' to get '{}_cs.json' first.
+Then choose the corresponding code among 'data_processed/data_pickle.py', 'data_processed_big/data_pickle_big.py', and 'data/make_Legal_basis_data.py' to generate the data structure according to model you want to run.
+
 ## Usage
 The "__training_code__" folder contains the training code of our LADAN. And the "__data_and_config__" folder contains the deta preprocessing codes and processed datasets. 
 Here are details of some important folders in the "__data_and_config__" folder:
