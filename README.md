@@ -1,9 +1,6 @@
 # LADAN
 The source code of article "Distinguish Confusing Law Articles for Legal Judgment Prediction", ACL 2020
 
-## Statement
-Due to the space limitation of our Dropout, here we only can provide the processed dataset of CAIL-small. After the dual anonymity period ends, we will open source data and code on github.com.
-
 ## Data_processing 
 When you get the CAIL datasets, run '__data_and_config/data/tongji3.py__' to get '__{}_cs.json__' first.
 Then choose the corresponding code among '__data_processed/data_pickle.py__', '__data_processed_big/data_pickle_big.py__', and '__data/make_Legal_basis_data.py__' to generate the data structure according to model you want to run.
