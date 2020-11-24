@@ -30,19 +30,20 @@ References
 -----------
 
 BibTex:
+
 ```Latex
 @inproceedings{xu-etal-2020-distinguish,
-    title = "Distinguish Confusing Law Articles for Legal Judgment Prediction",
-    author = "Xu, Nuo  and
+    title = {Distinguish Confusing Law Articles for Legal Judgment Prediction},
+    author = {Xu, Nuo  and
       Wang, Pinghui  and
       Chen, Long  and
       Pan, Li  and
       Wang, Xiaoyan  and
-      Zhao, Junzhou",
-    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
-    year = "2020",
-    doi = "10.18653/v1/2020.acl-main.280",
-    pages = "3086--3095",
+      Zhao, Junzhou},
+    booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
+    year = {2020},
+    doi = {10.18653/v1/2020.acl-main.280},
+    pages = {3086--3095}
 }
 ```
 
