@@ -26,4 +26,24 @@ Then, go to "training_code" folder and train any model that starts with "LADAN+"
 	
 where "__CONFIG_FILE__" corredponds to path of files in the "config" folder and the gpu config is necessary.
 
+References
+-----------
+
+BibTex:
+```Latex
+@inproceedings{xu-etal-2020-distinguish,
+    title = "Distinguish Confusing Law Articles for Legal Judgment Prediction",
+    author = "Xu, Nuo  and
+      Wang, Pinghui  and
+      Chen, Long  and
+      Pan, Li  and
+      Wang, Xiaoyan  and
+      Zhao, Junzhou",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    year = "2020",
+    doi = "10.18653/v1/2020.acl-main.280",
+    pages = "3086--3095",
+}
+```
+
 
