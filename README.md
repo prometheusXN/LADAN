@@ -6,7 +6,7 @@ When you get the CAIL datasets, run '__data_and_config/data/tongji3.py__' to get
 Then choose the corresponding code among '__data_processed/data_pickle.py__', '__data_processed_big/data_pickle_big.py__', and '__data/make_Legal_basis_data.py__' to generate the data structure according to model you want to run.
 
 You can get the word embeddin file "__cail_thulac.npy__" at the following address: https://drive.google.com/file/d/1_j1yYuG1VSblMuMCZrqrL0AtxadFUaXC/view?usp=drivesdk+
-the dataset file "__CAIL2018.zip__" at the address: https://drive.google.com/file/d/12QOsAumyzmdsqgqhqcNOhOaGcp--ECnm/view?usp=sharing
+the dataset file "__CAIL2018.zip__" at the address: https://drive.google.com/file/d/12QOsAumyzmdsqgqhqcNOhOaGcp--ECnm/view?usp=sharing, 
 https://drive.google.com/file/d/1JsP6co2GiCodv4oqyjaa6Q8TY5FWOQDM/view?usp=sharing and 
 https://drive.google.com/file/d/1VX8YhqF6ZX2tVLeOJV4VxdnNkWEDrbyS/view?usp=sharing
 
