@@ -1,5 +1,6 @@
 # LADAN
-The source code of article "Distinguish Confusing Law Articles for Legal Judgment Prediction", ACL 2020
+The source code of article "Distinguish Confusing Law Articles for Legal Judgment Prediction", ACL 2020.
+
 Besides, the Tensorflow 2.x version is avaliable at our [**D-LADAN**](https://github.com/prometheusXN/D-LADAN) opject.
 
 ## Data_processing 
