@@ -1,5 +1,6 @@
 # LADAN
 The source code of article "Distinguish Confusing Law Articles for Legal Judgment Prediction", ACL 2020
+Besides, the Tensorflow 2.x version is avaliable at our [**D-LADAN**](https://github.com/prometheusXN/D-LADAN) opject.
 
 ## Data_processing 
 When you get the CAIL datasets, run '__data_and_config/data/tongji3.py__' to get '__{}_cs.json__' first.
