@@ -1,13 +1,13 @@
 # LADAN
-The source code of article "Distinguish Confusing Law Articles for Legal Judgment Prediction", ACL 2020.
+The source code of the article "Distinguish Confusing Law Articles for Legal Judgment Prediction", ACL 2020.
 
-Besides, the Tensorflow 2.x version is avaliable at our [**D-LADAN**](https://github.com/prometheusXN/D-LADAN) opject.
+Besides, the Tensorflow 2.x and BERT versions are available at our [**D-LADAN**](https://github.com/prometheusXN/D-LADAN) opject.
 
 ## Data_processing 
 When you get the CAIL datasets, run '__data_and_config/data/tongji3.py__' to get '__{}_cs.json__' first.
 Then choose the corresponding code among '__data_processed/data_pickle.py__', '__data_processed_big/data_pickle_big.py__', and '__data/make_Legal_basis_data.py__' to generate the data structure according to model you want to run.
 
-You can get the word embeddin file "__cail_thulac.npy__" at the following address: https://drive.google.com/file/d/1_j1yYuG1VSblMuMCZrqrL0AtxadFUaXC/view?usp=drivesdk+
+You can get the word embedding file "__cail_thulac.npy__" at the following address: https://drive.google.com/file/d/1_j1yYuG1VSblMuMCZrqrL0AtxadFUaXC/view?usp=drivesdk+
 the dataset file "__CAIL2018.zip__" at the address: https://drive.google.com/file/d/12QOsAumyzmdsqgqhqcNOhOaGcp--ECnm/view?usp=sharing, 
 https://drive.google.com/file/d/1JsP6co2GiCodv4oqyjaa6Q8TY5FWOQDM/view?usp=sharing and 
 https://drive.google.com/file/d/1VX8YhqF6ZX2tVLeOJV4VxdnNkWEDrbyS/view?usp=sharing
@@ -20,16 +20,16 @@ Here are details of some important folders in the "__data_and_config__" folder:
 * Model: Contains some basic models we use.
 others: the data preprocessing codes.
 	
-For training, you should move all folders in the "data_and_config" folder into "training_code" folder first, i.e.,<br> 
+For training, you should move all folders in the "data_and_config" folder into the "training_code" folder first, i.e.,<br> 
 
 	cp -r data_and_config/ training_code/
 
-Then, go to "training_code" folder and train any model that starts with "LADAN+". An example likes: <br>
+Then, go to the "training_code" folder and train any model that starts with "LADAN+". An example is: <br>
 
 	cd training_code
 	python LADAN+Topjudge_small.py --config CONFIG_FILE --gpu GPU_ID
 	
-where "__CONFIG_FILE__" corredponds to path of files in the "config" folder and the gpu config is necessary.
+where "__CONFIG_FILE__" corresponds to the path of files in the "config" folder and the GPU config is necessary.
 
 References
 -----------
