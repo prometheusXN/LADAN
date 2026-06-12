@@ -53,4 +53,16 @@ BibTex:
 }
 ```
 
+```Latex
+@article{xu2024distinguish,
+  title={Distinguish Confusion in Legal Judgment Prediction via Revised Relation Knowledge},
+  author={Xu, Nuo and Wang, Pinghui and Zhao, Junzhou and Sun, Feiyang and Lan, Lin and Tao, Jing and Pan, Li and Guan, Xiaohong},
+  journal={ACM Transactions on Information Systems},
+  volume={43},
+  number={1},
+  pages={1--32},
+  year={2024},
+  publisher={ACM New York, NY, USA}
+}
+```
 
